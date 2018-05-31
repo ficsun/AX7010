@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  27800	   1200	  22740	  51740	   ca1c	helloworld_bsp_xuartps_polled_example_1.elf
