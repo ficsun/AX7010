@@ -1,0 +1,79 @@
+16:31:53 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:31:55 INFO  : XSDB server has started successfully.
+16:31:55 INFO  : Processing command line option -hwspec D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top.hdf.
+16:34:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+16:34:46 INFO  : 'fpga -state' command is executed.
+16:34:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:34:47 INFO  : Sourcing of 'D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/ps7_init.tcl' is done.
+16:34:48 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+16:34:48 INFO  : Hardware design information is loaded from 'D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/system.hdf'.
+16:34:48 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+16:34:48 INFO  : 'stop' command is executed.
+16:34:49 INFO  : 'ps7_init' command is executed.
+16:34:49 INFO  : 'ps7_post_config' command is executed.
+16:34:49 INFO  : 'con' command is executed.
+16:34:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:34:49 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:34:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:34:54 INFO  : The application 'D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/lcd7_display/Debug/lcd7_display.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:34:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/lcd7_display/Debug/lcd7_display.elf
+----------------End of Script----------------
+
+16:34:54 INFO  : Memory regions updated for context APU
+16:34:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:34:54 INFO  : 'con' command is executed.
+16:34:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+16:35:06 INFO  : Disconnected from the channel tcfchan#1.
+16:35:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:35:06 INFO  : Sourcing of 'D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/ps7_init.tcl' is done.
+16:35:07 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+16:35:07 INFO  : System reset is completed.
+16:35:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+16:35:12 INFO  : FPGA configured successfully with bitstream "D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/top.bit"
+16:35:13 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+16:35:13 INFO  : Hardware design information is loaded from 'D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/system.hdf'.
+16:35:14 INFO  : 'ps7_init' command is executed.
+16:35:14 INFO  : 'ps7_post_config' command is executed.
+16:35:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:35:18 INFO  : The application 'D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/lcd7_display/Debug/lcd7_display.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:35:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/top.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/top_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow D:/svn/FPGA/AX7010/06_lcd7_display/lcd7_display.sdk/lcd7_display/Debug/lcd7_display.elf
+----------------End of Script----------------
+
+16:35:18 INFO  : Memory regions updated for context APU
+16:35:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:35:19 INFO  : 'con' command is executed.
+16:35:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+16:50:06 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl

@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]D:\AX7010\vivado_project_B\09_linux_rtc\linux_rtc.sdk\fsbl\Debug\fsbl.elf
+	D:\AX7010\vivado_project_B\09_linux_rtc\linux_rtc.runs\impl_1\system_wrapper.bit
+	D:\AX7010\vivado_project_B\09_linux_rtc\u-boot.elf
+}
