@@ -1,0 +1,100 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat Jun 03 09:29:30 2017
+| Host         : Mei-PC running 64-bit major release  (build 7600)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_alinx_ov5640_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_alinx_ov5640_0_0 from www.alinx.com.cn:user:alinx_ov5640:2.1 (Rev. 13) to www.alinx.com.cn:user:alinx_ov5640_yuv:2.1 (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Jun 02 21:45:07 2017
+| Host         : Mei-PC running 64-bit major release  (build 7600)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_alinx_ov5640_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_alinx_ov5640_0_0 from www.alinx.com.cn:user:alinx_ov5640:2.0 (Rev. 11) to www.alinx.com.cn:user:alinx_ov5640:2.1 (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Jun 02 21:10:57 2017
+| Host         : Mei-PC running 64-bit major release  (build 7600)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_alinx_ov5640_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_alinx_ov5640_0_0 from www.alinx.com.cn:user:alinx_ov5640:1.9 (Rev. 10) to www.alinx.com.cn:user:alinx_ov5640:2.0 (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Jun 02 20:47:02 2017
+| Host         : Mei-PC running 64-bit major release  (build 7600)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_alinx_ov5640_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_alinx_ov5640_0_0 from www.alinx.com.cn:user:alinx_ov5640:1.8 (Rev. 8) to www.alinx.com.cn:user:alinx_ov5640:1.9 (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Jun 02 19:11:35 2017
+| Host         : Mei-PC running 64-bit major release  (build 7600)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_alinx_ov5640_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_alinx_ov5640_0_0 from www.alinx.com.cn:user:alinx_ov5640:1.7 (Rev. 7) to www.alinx.com.cn:user:alinx_ov5640:1.8 (Rev. 8)
+
